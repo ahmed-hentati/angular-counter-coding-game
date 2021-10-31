@@ -1,0 +1,8 @@
+<hello name="{{ name }}"></hello>
+<p>Start editing to see some magic happen :)</p>
+
+<counter-component
+  [message]="'hello'"
+  (tick)="getMessage($event)"
+></counter-component>
+{{ message }}
